@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Images avec Animation</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+        }
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.2); /* Agrandir l'image au survol */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Galerie d'Ongles Manucurés</h1>
+
+    <div class="gallery">
+        <img src="file:///Users/chaimabenfarhat/Downloads/projet%202/ongle1.png" alt="Ongle Manucuré 1" style="width: 300px; height: 200px; margin: 10px;">
+        <img src="file:///Users/chaimabenfarhat/Downloads/projet%202/ongle2.jpg" alt="Ongle Manucuré 2" style="width: 300px; height: 200px; margin: 10px;">
+        <img src="file:///Users/chaimabenfarhat/Downloads/projet%202/ongle3.jpg" alt="Ongle Manucuré 3" style="width: 300px; height: 200px; margin: 10px;">
+        <!-- Ajoutez autant d'images que nécessaire -->
+
+    </div>
+
+</body>
+</html>
